@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+}
+
+header {
+    background-color: #444; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s; 
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+}
+
+.hero {
+    background-image: url("Real state project.JFIF");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+   
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    margin-left: 1050px;
+    margin-bottom: 400px;
+    
+}
+
+section {
+    padding: 60px 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+}
+
+.about-content, .services-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0; 
+}
+
+
+
+.about-content h4 {
+    margin-left: 20px; 
+    font-family: 'Georgia', serif;
+    font-size: 24px; 
+    margin-top: 0; 
+}
+
+.about-content img, .service img {
+    max-width: 250px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+}
+
+.about-content img:hover, .service img:hover {
+    transform: scale(1.05); 
+}
+
+.service {
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    background: #444; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social-media a {
+    color: #ffd700; 
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+.social-media a:hover {
+    color: #fff;
+}
+
+
